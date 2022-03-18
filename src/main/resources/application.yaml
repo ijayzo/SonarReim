@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: ReimbursementRequestAPI
+  datasource:
+    username: postgres
+    password: password
+    url: jdbc:postgresql://34.132.27.250:5432/db_reimburse
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8080
+
+api:
+  config:
+    api2-url: ${API2_URL}
+
+//spring:
+  application:
+    name: ReimbursementRequestAPI
+  datasource:
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://35.188.29.161:5432/postgres
+    driver-class-name: org.postgresql.Driver
+#
+#spring=
+# application=
+#    name= ReimbursementRequestAPI
+#  datasource=
+#    username= postgres
+#    password= admin
+#    url= jdbc:postgresql://35.188.29.161:5432/postgres
+#    driver-class-name= org.postgresql.Driver
